@@ -9,9 +9,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import model.ChatDao;
-import model.UsuarioDao;
-import model.usuario;
+import model.dao.ChatDao;
+import model.dao.UsuarioDao;
+import model.Usuario;
 
 /**
  *
@@ -26,7 +26,7 @@ public class NewMain {
         UsuarioDao dao = new UsuarioDao();
         ChatDao daoChat = new ChatDao();
         
-        ArrayList<usuario> contactos= new ArrayList<>();
+        ArrayList<Usuario> contactos= new ArrayList<>();
         try {
              contactos = dao.getcontactos("gonzalo123");
             

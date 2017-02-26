@@ -13,13 +13,13 @@ import java.util.List;
  *
  * @author User
  */
-public class usuario {
+public class Usuario {
 
  public String id_usu,nombre_usu,alias,estado_usu,imagen_usu,email,contraseña,fecha_registro;
  public int celular;
  public List<String> contactos;
 
-    public usuario(String id_usu, String nombre_usu, String alias, String estado_usu, String imagen_usu, String email, String contraseña, String fecha_registro, int celular, List<String> contactos) {
+    public Usuario(String id_usu, String nombre_usu, String alias, String estado_usu, String imagen_usu, String email, String contraseña, String fecha_registro, int celular, List<String> contactos) {
         this.id_usu = id_usu;
         this.nombre_usu = nombre_usu;
         this.alias = alias;
@@ -32,7 +32,7 @@ public class usuario {
         this.contactos = contactos;
     }
 
-    public usuario() {
+    public Usuario() {
     }
 
     public String getId_usu() {
