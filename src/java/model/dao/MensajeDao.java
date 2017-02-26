@@ -19,7 +19,7 @@ import model.Mensaje;
  *
  * @author User
  */
-public class mensajeDao {
+public class MensajeDao {
 
     Connection conect = Conexion.obtener();
     
